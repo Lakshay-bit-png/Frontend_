@@ -1,0 +1,53 @@
+body{
+    color:white;
+}
+.animation-head{
+    display:flex;
+    padding-top:20px;
+    justify-content:  center;
+    font-size: 32px;
+}
+.flex-col{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+    gap:100px;
+    padding-top:20px;
+}
+
+.img-div{
+    width:300px;
+}
+.div-1{
+    overflow:hidden;
+}
+.img-1:hover{
+    transform:scale(1.4)
+}
+.img-1{
+    width:100%; 
+    transition:0.4s 
+}
+.img-2{
+    width:100%;
+    transition:0.3s;
+}
+.img-2:hover{
+    transform:rotate(360deg) scale(1.4)
+}
+.img-3{width:100%;
+    transition:0.3s;
+    height:250px;
+}
+.div-3{
+    transition:0.3s;
+    overflow:hidden;
+}
+.div-3:hover{
+    border-radius:20%;
+
+}
+.img-3:hover{
+    transform:scale(1.2)
+}

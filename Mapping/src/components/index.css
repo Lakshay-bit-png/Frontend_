@@ -1,0 +1,22 @@
+.main-div{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:20px;
+  }
+  
+  .item{
+    width:250px;height:300px;
+    background-color: rgba(128, 128, 128, 0.399);
+    border-radius:15px 15px 15px 15px;
+    
+    overflow:hidden;
+    padding:10px;
+  }
+
+  h3{
+    color:rgb(12, 55, 93);
+  }
